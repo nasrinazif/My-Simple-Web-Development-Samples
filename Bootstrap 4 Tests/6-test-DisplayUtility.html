@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Display Utility Bootstrap 4!</title>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Display Utility!</h1>
+    <br>
+    <hr><br>
+    <h2>Inline and Block Display:</h2>
+    <br>
+    <h2 class="border border-info d-inline">Text1 (inline)</h2>
+    <h2 class="border border-danger d-block">Text2 (block)</h2>
+    <h2 class="border border-info d-none">Text3 (none)</h2>
+    <h2 class="border border-danger d-inline-block">Text4 (inline-block)</h2>
+    <br>
+    <hr><br>
+    <h2>Responsivness (Change Screen Size to See the Effects!):</h2>
+    <br>
+    <h2 class="border border-info d-xl-none">Hide me on XL!</h2>
+    <h2 class="border border-danger d-none d-md-none d-lg-block d-xl-none">Always hidden except large!!</h2>
+    <h2 class="border border-danger d-none d-lg-block d-xl-none">Always hidden except large!!</h2>
+    <br>
+  </div>
+  <div class="container">
+    <br>
+    <hr><br>
+    <h1>Hide a Text on Small Screens! (Change Screen Size)</h1>
+    <br>
+    <div class="jumbotron">
+      <h1 class="display-4">Hello, world!</h1>
+      <p class="lead d-none d-lg-inline">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum modi saepe sequi repellat nemo? Odit quisquam magnam deleniti perspiciatis sunt neque assumenda ipsa ab! Magnam porro distinctio minima eligendi
+        pariatur suscipit repellat veniam accusamus. Et neque repellat ullam laborum, odio? Architecto provident, velit hic dolore nam reprehenderit quaerat accusantium optio asperiores. Asperiores optio assumenda quia corrupti illo architecto
+        ratione, corporis.</p>
+      <hr class="my-4">
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+  </div>
+</body>
+
+</html>
