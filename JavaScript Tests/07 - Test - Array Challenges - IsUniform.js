@@ -1,5 +1,5 @@
 var myList = [];
-var userInput = "sds";
+var userInput;
 
 while(userInput != "quit"){
   userInput = prompt("Add an item to the list!");
