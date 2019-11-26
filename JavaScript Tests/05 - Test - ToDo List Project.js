@@ -13,7 +13,7 @@ window.setTimeout(function() {
       console.log("Item " + "\" " + item + "\"" + " was added to the todo list!")
     }
 
-    if(userResponse === "list"){
+    else if(userResponse === "list"){
       console.log("******* The Todo List Items: *******");
       for(i=0; i<todoList.length; i++){
         console.log(i + ": " + todoList[i])
@@ -21,7 +21,7 @@ window.setTimeout(function() {
       console.log("************************************");
     }
 
-    if(userResponse === "delete"){
+    else if(userResponse === "delete"){
       deleteIndex = prompt("*** Enter the index of the item you want to delete! ***");
       todoList.splice(deleteIndex, 1);
       console.log("Item number " + "\" " + deleteIndex + "\"" + " was removed from the todo list!")
