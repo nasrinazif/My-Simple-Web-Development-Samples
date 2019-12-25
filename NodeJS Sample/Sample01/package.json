@@ -1,0 +1,21 @@
+{
+    "name": "my-sample01-package",
+    "version": "1.0.0",
+    "description": "This is my first nodejs test",
+    "main": "./lib/server.js",
+    "scripts": {
+        "start": "node ./lib/server.js"
+    },
+    "dependencies": {
+        "angular": "latest",
+        "angular-ui-router": "~0.2.11",
+        "dat-gui": "latest",
+        "express": "latest",
+        "mongodb": "^3.4.1",
+        "path": "latest",
+        "q": "latest",
+        "request": "^2.88.0",
+        "sequelize": "latest",
+        "tedious": "latest"
+    }
+}
