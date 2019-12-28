@@ -14,6 +14,8 @@ const dbName = 'EmployeeDB';
 
 var empNames = '';
 
+var empJSON = '';
+
 // Use connect method to connect to the server
 MongoClient.connect(url, function(err, client) {
     assert.equal(null, err);
@@ -24,8 +26,10 @@ MongoClient.connect(url, function(err, client) {
 
     cursor.forEach(function(item) {
         empNames = empNames + item['Employee Name'] + '\n';
+        empJSON = empJSON + item + '\n';
     });
 
+    console.log(empJSON)
 
     client.close();
 });

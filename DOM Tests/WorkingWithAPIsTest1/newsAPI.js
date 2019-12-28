@@ -11,7 +11,7 @@ app.appendChild(container)
 
 var request = new XMLHttpRequest()
 
-request.open('GET', 'https://newsapi.org/v2/everything?q=bitcoin&from=2019-11-16&sortBy=publishedAt&apiKey=53109dedbd5d4a1d9e4bb86969ad8e21', true)
+request.open('GET', 'http://127.0.0.1:4043/', true)
 request.onload = function() {
     // Begin accessing JSON data here
     var data = JSON.parse(this.response)
