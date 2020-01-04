@@ -18,10 +18,10 @@ namespace DatingApp.API.Controllers
         }
 
         // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        [HttpGet("{myid}")]
+        public ActionResult<string> Get(int myid)
         {
-            return "your value is: " + id;
+            return "your value is: " + myid;
         }
 
         // POST api/values

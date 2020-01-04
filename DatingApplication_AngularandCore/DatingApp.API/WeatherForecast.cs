@@ -4,6 +4,8 @@ namespace DatingApp.API
 {
     public class WeatherForecast
     {
+        public int IndexID {get; set;}     
+
         public DateTime Date { get; set; }
 
         public int TemperatureC { get; set; }
