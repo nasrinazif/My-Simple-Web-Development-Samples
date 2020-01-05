@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Video Lectures\\Udemy\\0 Udemy The Web Developer Bootcamp - 2019-06\\My Udemy Projects on Github\\My-Simple-Web-Development-Samples\\DatingApplication_AngularandCore\\DatingApp.API\\DatingApp.API.csproj": {}
+    "D:\\Video Lectures\\Udemy\\0 Udemy The Web Developer Bootcamp - 2019-06\\My Udemy Projects on Github\\My-Simple-Web-Development-Samples\\DatingApplication_AngularandCore\\DatingApp.API\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "d:\\Video Lectures\\Udemy\\0 Udemy The Web Developer Bootcamp - 2019-06\\My Udemy Projects on Github\\My-Simple-Web-Development-Samples\\DatingApplication_AngularandCore\\DatingApp.API\\DatingApp.API.csproj": {
+    "D:\\Video Lectures\\Udemy\\0 Udemy The Web Developer Bootcamp - 2019-06\\My Udemy Projects on Github\\My-Simple-Web-Development-Samples\\DatingApplication_AngularandCore\\DatingApp.API\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Video Lectures\\Udemy\\0 Udemy The Web Developer Bootcamp - 2019-06\\My Udemy Projects on Github\\My-Simple-Web-Development-Samples\\DatingApplication_AngularandCore\\DatingApp.API\\DatingApp.API.csproj",
+        "projectUniqueName": "D:\\Video Lectures\\Udemy\\0 Udemy The Web Developer Bootcamp - 2019-06\\My Udemy Projects on Github\\My-Simple-Web-Development-Samples\\DatingApplication_AngularandCore\\DatingApp.API\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "d:\\Video Lectures\\Udemy\\0 Udemy The Web Developer Bootcamp - 2019-06\\My Udemy Projects on Github\\My-Simple-Web-Development-Samples\\DatingApplication_AngularandCore\\DatingApp.API\\DatingApp.API.csproj",
+        "projectPath": "D:\\Video Lectures\\Udemy\\0 Udemy The Web Developer Bootcamp - 2019-06\\My Udemy Projects on Github\\My-Simple-Web-Development-Samples\\DatingApplication_AngularandCore\\DatingApp.API\\DatingApp.API.csproj",
         "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-        "outputPath": "d:\\Video Lectures\\Udemy\\0 Udemy The Web Developer Bootcamp - 2019-06\\My Udemy Projects on Github\\My-Simple-Web-Development-Samples\\DatingApplication_AngularandCore\\DatingApp.API\\obj\\",
+        "outputPath": "D:\\Video Lectures\\Udemy\\0 Udemy The Web Developer Bootcamp - 2019-06\\My Udemy Projects on Github\\My-Simple-Web-Development-Samples\\DatingApplication_AngularandCore\\DatingApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,10 @@
         "netcoreapp3.0": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
               "version": "[3.0.0, )"
             },
